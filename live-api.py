@@ -59,8 +59,8 @@ async def main():
 
     async with client.aio.live.connect(model=MODEL, config=config) as session:
 
-        print("✅ Connected!")
-        print("🎤 Speak now. Press Ctrl+C to stop.\n")
+        print(" Connected!")
+        print(" Speak now. Press Ctrl+C to stop.\n")
 
         # ─── Mic input stream ───
         mic = pya.open(
@@ -145,3 +145,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("\nDone.")
+
