@@ -55,3 +55,6 @@ desktop.ini
 *.mp4
 *.mov
 
+# Agent sandbox files
+environment_files/
+snapshot.tar

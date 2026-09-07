@@ -16,16 +16,25 @@ interaction = client.interactions.create(
     environment={
         "type": "remote",
         "sources": [
+            # {
+            #     "type": "inline",
+            #     "target": ".agents/AGENTS.md",
+            #     "content": "Always use matplotlib for charts. Include a summary table in every report.",
+            # },
+            # {
+            #     "type": "inline",
+            #     "target": ".agents/skills/slide-maker/SKILL.md",
+            #     "content": "---\nname: slide-maker\n---\n# Slide Maker\nCreate HTML slide decks from data analysis results.",
+            # },
             {
-                "type": "inline",
-                "target": ".agents/AGENTS.md",
-                "content": "Always use matplotlib for charts. Include a summary table in every report.",
-            },
-            {
-                "type": "inline",
-                "target": ".agents/skills/slide-maker/SKILL.md",
-                "content": "---\nname: slide-maker\n---\n# Slide Maker\nCreate HTML slide decks from data analysis results.",
-            },
+                "type": "repository",
+
+                # Your GitHub repository
+                "source": "https://github.com/ekchanthornn/gemini-api.git",
+
+                # Where GitHub repository is cloned
+                "target": "/workspace/project"
+            }
         ],
     },
 )
