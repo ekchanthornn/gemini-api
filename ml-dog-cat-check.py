@@ -1,7 +1,5 @@
 from sklearn.tree import DecisionTreeClassifier
 
-# ទិន្នន័យលក្ខណៈសម្គាល់ (Features): [ear_size, face_roundness, snout_length]
-
 X = [
     [8, 9, 3],   # ឆ្មា
     [9, 8, 3],   # ឆ្មា
