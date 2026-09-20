@@ -4,7 +4,9 @@ import tarfile
 from dotenv import load_dotenv
 load_dotenv()
 
-env_id = "75fe9483ef1538fa6e395b29807369d6"
+# env_id = "75fe9483ef1538fa6e395b29807369d6"
+env_id = "584bb2c0eb30ce2585025b5ced9402f5"
+
 api_key = os.getenv("GEMINI_API_KEY")
 
 url = (

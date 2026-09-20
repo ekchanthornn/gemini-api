@@ -12,8 +12,7 @@ client = genai.Client(
 interaction = client.interactions.create(
     agent="antigravity-preview-05-2026",
     input="Analyze the Q1 revenue data and create a slide deck.",
-    system_instruction="You are a data analyst. Always include visualizations and export results as PDF.",
-    environment={
+system_instruction="You are a data analyst. Always include visualizations. Export results as both an HTML slide deck and a PDF.",    environment={
         "type": "remote",
         "sources": [
             # {
