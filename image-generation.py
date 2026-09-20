@@ -14,7 +14,7 @@ interaction = client.interactions.create(
 )
 interaction = client.interactions.create(
     model="gemini-2.5-flash-image",  # ← Model Image Generation
-    input="បង្កើតរូបភាពកូនសិស្សស្រីជនជាតិខ្មែរកំពុងរៀនគណិតវិទ្យាក្នុងថ្នាក់",
+    input="បង្កើតរូបភាពសិស្សជាជនជាតិខ្មែរកំពុងរៀនគណិតវិទ្យា ",
 )
 # interaction = client.interactions.create(
 #     model="gemini-3.1-flash-lite-image",  # ← Model Image Generation

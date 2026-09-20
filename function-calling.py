@@ -10,7 +10,7 @@ client = genai.Client(
 
 def get_weather(city):
     cities = {
-        "Phnom Penh": {
+        "Phnom1 Penh": {
             "latitude": 11.5564,
             "longitude": 104.9282
         },
