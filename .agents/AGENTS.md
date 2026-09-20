@@ -1,5 +1,2 @@
----
-name: slide-maker
----
-# Slide Maker
-Create HTML slide decks from data analysis results.
+Always use matplotlib for charts. Include a summary table in every report.
+

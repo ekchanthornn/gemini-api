@@ -1,1 +1,0 @@
-Always use matplotlib for charts. Include a summary table in every report.
