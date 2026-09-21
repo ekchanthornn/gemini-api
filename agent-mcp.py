@@ -11,9 +11,12 @@ client = genai.Client(
 interaction = client.interactions.create(
     agent="antigravity-preview-05-2026",
 
+    # input="""
+    # Check the weather in Phnom Penh using the MCP weather tool.
+    # Then explain the result.
+    # """,
     input="""
-    Check the weather in Phnom Penh using the MCP weather tool.
-    Then explain the result.
+    សូមប្រាប់អំពីអាកាសធាតុនៅទីក្រុងភ្នំពេញថ្ងៃនេះ
     """,
 
     environment="remote",
