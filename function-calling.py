@@ -1,3 +1,4 @@
+from google.genai._gaos import interactions
 from dotenv import load_dotenv
 from google import genai
 import os
@@ -10,7 +11,7 @@ client = genai.Client(
 
 def get_weather(city):
     cities = {
-        "Phnom1 Penh": {
+        "Phnom Penh": {
             "latitude": 11.5564,
             "longitude": 104.9282
         },
@@ -107,4 +108,6 @@ for step in interaction.steps:
         )
         print("\nGemini Final Answer:")
         print(interaction2.output_text)
+
+
 

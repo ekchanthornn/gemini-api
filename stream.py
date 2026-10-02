@@ -15,6 +15,7 @@ stream  = client.interactions.create(
 )
 
 for event in stream:
+    print("===============================\n")
     print(event)  # print ជា chunk
     
 

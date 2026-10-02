@@ -22,7 +22,7 @@ client = genai.Client(
 
 interaction = client.interactions.create(
     model="gemini-3.5-flash-lite",
-    input="ពន្យល់ AI ក្នុងពាក្យពីរបី"
+    input="សូមពន្យល់សង្ខេបអំពី AI"
 )
 
 print(interaction.output_text)
